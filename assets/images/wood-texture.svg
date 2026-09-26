@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="woodGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4A2C1A" stop-opacity="0.95"/>
+      <stop offset="50%" stop-color="#3A2113" stop-opacity="0.97"/>
+      <stop offset="100%" stop-color="#28150A" stop-opacity="1.0"/>
+    </linearGradient>
+    <filter id="woodNoise">
+      <feTurbulence type="fractalNoise" baseFrequency="0.04 0.95" numOctaves="3" result="noise"/>
+      <feColorMatrix type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 0.15 0"/>
+      <feBlend in="SourceGraphic" in2="noise" mode="multiply"/>
+    </filter>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#woodGrad)"/>
+  <rect width="100%" height="100%" filter="url(#woodNoise)" opacity="0.4"/>
+</svg>

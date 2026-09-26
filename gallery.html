@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Gallery - Master Carpenter Work Portfolio</title>
+  <meta name="description" content="Browse our real-world portfolio of modular kitchens, wardrobes, carved teak doors, beds, and custom woodwork across nearby villages.">
+  <meta name="keywords" content="carpenter project photos, modular kitchen designs, teak door photos, wardrobe designs, custom furniture gallery">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header wood-grain-accent">
+    <div class="container nav-container">
+      <a href="index.html" class="brand" aria-label="Master Carpenter Home">
+        <div class="brand-icon-box">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M3 17h18a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1z"/>
+            <path d="M6 12V7a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v5"/>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-name">Kotaiah WoodCraft</span>
+          <span class="brand-tagline">15+ Yrs Master Carpenter</span>
+        </div>
+      </a>
+
+      <nav class="nav-menu" id="navMenu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="gallery.html" class="nav-link active">Our Work</a>
+        <a href="about.html" class="nav-link">About My Father</a>
+        <a href="index.html#villages" class="nav-link">Service Areas</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="themeToggleBtn" class="theme-toggle-btn" aria-label="Toggle dark/light mode">
+          <svg class="icon moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+          <svg class="icon sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+        </button>
+        <button class="btn btn-gold btn-sm btn-quote-header" data-open-modal="quoteModal">Free Estimate</button>
+        <button id="hamburgerBtn" class="hamburger-btn" aria-label="Toggle mobile menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Page Hero -->
+    <section class="page-hero">
+      <div class="container">
+        <div class="breadcrumbs">
+          <a href="index.html">Home</a> <span>/</span> <span>Our Work</span>
+        </div>
+        <h1 class="page-hero-title">15 Years of Craftsmanship</h1>
+        <p class="page-hero-subtitle">
+          Every photo represents a real home, a happy family, or a local business in our surrounding villages. Click any project to inspect the details or ask for an estimate on WhatsApp.
+        </p>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="section">
+      <div class="container">
+        <!-- Filter Controls -->
+        <div class="gallery-filters">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="kitchens">Kitchens</button>
+          <button class="filter-btn" data-filter="wardrobes">Wardrobes</button>
+          <button class="filter-btn" data-filter="beds">Beds</button>
+          <button class="filter-btn" data-filter="doors">Doors &amp; Frames</button>
+          <button class="filter-btn" data-filter="windows">Windows</button>
+          <button class="filter-btn" data-filter="tvunits">TV Units</button>
+          <button class="filter-btn" data-filter="office">Office &amp; Commercial</button>
+        </div>
+
+        <!-- Gallery Grid (20+ Rich Showcases) -->
+        <div class="gallery-grid">
+          <!-- 1. Kitchen 1 -->
+          <div class="gallery-item" data-category="kitchens" data-title="Glossy White &amp; Walnut Modular Kitchen" data-meta="BWP 710 Marine Ply • Soft-Close Hydraulic Drawers •">
+            <img src="C:\Users\srini\OneDrive\Desktop\carpenter\assets\images\kitchen.jpeg" alt="White and Walnut Modular Kitchen" class="gallery-img" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-item-category">Kitchens</span>
+              <h3 class="gallery-item-title">Modular Kitchen</h3>
+              <span class="gallery-item-location"></span>
+            </div>
+            <div class="gallery-zoom-icon"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></div>
+          </div>
+
+          <!-- 2. Wardrobe 1 -->
+          <div class="gallery-item" data-category="wardrobes" data-title="Sliding Wardrobe" data-meta="Champagne Gold Profile Handles • Internal Vanity ">
+            <img src="C:\Users\srini\OneDrive\Desktop\carpenter\assets\images\wardroob-1.jpeg" alt="Sliding Wardrobe" class="gallery-img" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-item-category">Wardrobes</span>
+              <h3 class="gallery-item-title">Sliding Wardrobe</h3>
+              <span class="gallery-item-location"></span>
+            </div>
+            <div class="gallery-zoom-icon"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></div>
+          </div>
+
+          <!-- 3. Bed 1 -->
+          <div class="gallery-item" data-category="beds" data-title="Wooden Double Cot" data-meta="Solid Teak Headboard • Massive Under-Bed Storage">
+            <img src="C:\Users\srini\OneDrive\Desktop\carpenter\assets\images\bed.jpeg" alt="King Storage Bed" class="gallery-img" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-item-category">Beds</span>
+              <h3 class="gallery-item-title">Wooden Double Cot</h3>
+              <span class="gallery-item-location"></span>
+            </div>
+            <div class="gallery-zoom-icon"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></div>
+          </div>
+
+          <!-- 4. Doors 1 -->
+          <div class="gallery-item" data-category="doors" data-title="Grand Carved Teak Main Entrance Door" data-meta="Temple Carving Motifs • 4-Inch Solid Wood Frame ">
+            <img src="C:\Users\srini\OneDrive\Desktop\carpenter\assets\images\door-2.jpeg" alt="Carved Teak Door" class="gallery-img" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-item-category">Doors</span>
+              <h3 class="gallery-item-title">Teak Door</h3>
+              <span class="gallery-item-location"></span>
+            </div>
+            <div class="gallery-zoom-icon"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></div>
+          </div>
+
+          <!-- 5. TV Unit 1 -->
+          <div class="gallery-item" data-category="tvunits" data-title="Floating Wall TV Console" data-meta="Italian Marble Sheet Backing • Ambient LED Lighting">
+            <img src="C:\Users\srini\OneDrive\Desktop\carpenter\assets\images\tv-unit.jpeg" alt="Floating TV Unit" class="gallery-img" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-item-category">TV Units</span>
+              <h3 class="gallery-item-title">Floating Wall TV Console</h3>
+              <span class="gallery-item-location"></span>
+            </div>
+            <div class="gallery-zoom-icon"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></div>
+          </div>
+
+          <!-- 6. Windows 1 -->
+          <div class="gallery-item" data-category="windows" data-title="Traditional Window &amp; Shutters" data-meta="Seasoned Teak Wood • Brass Latches • Mosquito Mesh">
+            <img src="C:\Users\srini\OneDrive\Desktop\carpenter\assets\images\window.png" alt="Timber Window Frame" class="gallery-img" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-item-category">Windows</span>
+              <h3 class="gallery-item-title">Traditional Window</h3>
+              <span class="gallery-item-location"></span>
+            </div>
+            <div class="gallery-zoom-icon"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></div>
+          </div>
+
+          <!-- 7. puja 1 -->
+          <div class="gallery-item" data-category="puja" data-title="Executive handcrafted puja Mandir" data-meta="Intricate Wood Carving • Sacred Temple Design">
+            <img src="C:\Users\srini\Downloads\Gemini_Generated_Image_jwbevmjwbevmjwbe.png" alt="Executive Office Furniture" class="gallery-img" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-item-category">Mandir</span>
+              <h3 class="gallery-item-title">Handcrafted Wooden puja Mandir</h3>
+              <span class="gallery-item-location"></span>
+            </div>
+            <div class="gallery-zoom-icon"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></div>
+          </div>
+
+          <!-- 8. Kitchen 2 -->
+          <div class="gallery-item" data-category="Dining tables" data-title="Premium Wooden Dining Table" data-meta="Premium Solid Wood Craftsmanship • Elegant Dining Table Finish">
+            <img src="C:\Users\srini\OneDrive\Desktop\carpenter\assets\images\dining table.png" alt="Parallel Modular Kitchen" class="gallery-img" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-item-category">Dining Tables</span>
+              <h3 class="gallery-item-title">Premium Wooden Dining Table</h3>
+              <span class="gallery-item-location"></span>
+            </div>
+            <div class="gallery-zoom-icon"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></div>
+          </div>
+
+          <!-- 9. Wardrobe 2 -->
+          <!--<div class="gallery-item" data-category="wardrobes" data-title="Kids Bedroom Wardrobe &amp; Study Table Combo" data-meta="Scratch-Resistant Textured Laminates">
+            <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=800&q=80" alt="Wardrobe and Study Unit" class="gallery-img" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-item-category">Wardrobes</span>
+              <h3 class="gallery-item-title">Wardrobe &amp; Study Table Combo</h3>
+              <span class="gallery-item-location"></span>
+            </div>-->
+            <div class="gallery-zoom-icon"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <div>&copy; 2026 Kotaiah WoodCraft. 15 Years of Trusted Craftsmanship.</div>
+        <div><a href="contact.html" style="color: var(--gold);">Book a Free Village Site Visit</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox Modal -->
+  <dialog id="lightboxModal" class="custom-modal lightbox-modal">
+    <div class="modal-header">
+      <h3 class="modal-title lightbox-title">Project Details</h3>
+      <button type="button" class="modal-close-btn" aria-label="Close lightbox">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
+    <div class="modal-body">
+      <div class="lightbox-img-wrapper">
+        <img src="" alt="" class="lightbox-img">
+      </div>
+      <div class="lightbox-details">
+        <div>
+          <h4 class="lightbox-title"></h4>
+          <p class="lightbox-meta"></p>
+        </div>
+        <!--<div>
+          <a href="https://wa.me/916301417911" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-sm lightbox-wa-btn">
+            Inquire About This Design on WhatsApp
+          </a>
+        </div>-->
+      </div>
+    </div>
+  </dialog>
+
+  <!-- Quote Modal -->
+  <dialog id="quoteModal" class="custom-modal">
+    <div class="modal-header">
+      <h3 class="modal-title">Request Free Site Measurement</h3>
+      <button type="button" class="modal-close-btn" aria-label="Close dialog">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
+    <div class="modal-body">
+      <form id="quoteModalForm" novalidate>
+        <div class="form-group">
+          <label class="form-label">Your Name *</label>
+          <input type="text" name="name" class="form-input" placeholder="e.g. Ramesh" required>
+        </div>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+          <div class="form-group">
+            <label class="form-label">Phone *</label>
+            <input type="tel" name="phone" class="form-input" placeholder="e.g. 98765 43210" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Village *</label>
+            <input type="text" name="village" class="form-input" placeholder="e.g. Ramapuram" required>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-whatsapp" style="width: 100%; margin-top: 1rem;">Send on WhatsApp</button>
+      </form>
+    </div>
+  </dialog>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
